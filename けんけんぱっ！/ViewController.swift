@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController , ADFmyMovieRewardDelegate {
     
-    var mMovieReward: ADFmyMovieReward?
+    /*var mMovieReward: ADFmyMovieReward?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -125,5 +125,5 @@ class ViewController: UIViewController , ADFmyMovieRewardDelegate {
     }*/
 }
 
-
-
+*/
+}

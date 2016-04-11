@@ -84,14 +84,33 @@ class normalviewController : UIViewController ,NADViewDelegate, NADInterstitialD
     }
     
     //ボタンイベント
-    internal func score(sender: UIButton){
+    internal func score(sender: AnyObject){
         
         NADInterstitialShowResult.self
         NADInterstitial.sharedInstance().showAd()
         
-        let view: UIViewController = ScoreCountviewController()
+        let alertcontroller = UIAlertController(title: "スコアアッタクルール", message: "２０秒間でポイントを競うんだ！準備はいい？", preferredStyle: .Alert)
         
-        self.presentViewController(view,animated: true, completion: nil)
+        let otherAction = UIAlertAction(title: "OK", style: .Default) {
+            
+            action in print("Push OK!!")
+
+        }
+        
+        let canselAction = UIAlertAction(title: "CANSEL", style: .Default) {
+            
+            aciotn in print("Push CANSEL!!")
+            
+            
+        }
+        
+        
+        //let view: UIViewController = ScoreCountviewController()
+        
+        alertcontroller.addAction(otherAction)
+        alertcontroller.addAction(canselAction)
+        
+        presentViewController(alertcontroller, animated:  true, completion:  nil)
     }
     //ボタンイベント
     internal func score1(sender: UIButton){
