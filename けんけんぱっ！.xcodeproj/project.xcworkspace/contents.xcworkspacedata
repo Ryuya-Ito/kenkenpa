@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "self:&#x3051;&#x3093;&#x3051;&#x3093;&#x306f;&#x309a;&#x3063;&#xff01;.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "&#x3051;&#x3093;&#x3051;&#x3093;&#x3071;&#x3063;&#xff01;">
+      <FileRef
+         location = "self:">
+      </FileRef>
+   </Group>
 </Workspace>

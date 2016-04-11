@@ -7,42 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A75586D71C5F463F009995E1 /* ankiScore count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75586D61C5F463F009995E1 /* ankiScore count.swift */; };
-		A75586D91C5F4650009995E1 /* ankiTime count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75586D81C5F4650009995E1 /* ankiTime count.swift */; };
-		A75586DB1C5F4668009995E1 /* ankiScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75586DA1C5F4668009995E1 /* ankiScoreGame.swift */; };
-		A75586DD1C5F467A009995E1 /* ankiTimeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75586DC1C5F467A009995E1 /* ankiTimeGame.swift */; };
-		A75586DF1C5F46C3009995E1 /* ankiScoreGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75586DE1C5F46C3009995E1 /* ankiScoreGR.swift */; };
-		A75586E11C5F46D8009995E1 /* ankiTimeGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75586E01C5F46D8009995E1 /* ankiTimeGR.swift */; };
-		A75586E31C5F46F0009995E1 /* ankiMissGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75586E21C5F46F0009995E1 /* ankiMissGR.swift */; };
 		A75586E71C5F9B88009995E1 /* ankiimage.png in Resources */ = {isa = PBXBuildFile; fileRef = A75586E61C5F9B88009995E1 /* ankiimage.png */; };
-		A75868841C445CCE0092D3B4 /* TimeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75868831C445CCE0092D3B4 /* TimeGame.swift */; };
 		A75F4F541BD394B600E9D145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F4F531BD394B600E9D145 /* ViewController.swift */; };
 		A75F4F571BD394B600E9D145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75F4F551BD394B600E9D145 /* Main.storyboard */; };
 		A75F4F591BD394B600E9D145 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75F4F581BD394B600E9D145 /* Images.xcassets */; };
 		A75F4F681BD394B700E9D145 /* ________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F4F671BD394B700E9D145 /* ________Tests.swift */; };
 		A75F4F721BD394DA00E9D145 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F4F711BD394D900E9D145 /* iAd.framework */; };
 		A75F4F741BD394E200E9D145 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75F4F731BD394E200E9D145 /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		A75F4F781BD3E32600E9D145 /* normal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F4F771BD3E32600E9D145 /* normal.swift */; };
-		A75FA7BE1C46354B00051664 /* Time Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75FA7BD1C46354B00051664 /* Time Count.swift */; };
-		A75FA7C01C46398C00051664 /* Time Gameover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75FA7BF1C46398C00051664 /* Time Gameover.swift */; };
 		A760EA1F1BEA101700361A28 /* ken-ken-pa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A760EA1E1BEA101700361A28 /* ken-ken-pa.mp3 */; };
-		A76969551C46898E00548021 /* mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76969541C46898E00548021 /* mirror.swift */; };
-		A7697D2E1C492700001ABEB3 /* Miss Gameover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7697D2D1C492700001ABEB3 /* Miss Gameover.swift */; };
 		A771EA551C8354AF002650A6 /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A771EA481C8354AF002650A6 /* libNendAd.a */; };
 		A771EA561C8354AF002650A6 /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = A771EA541C8354AF002650A6 /* NADView_readme.txt */; };
 		A771EA591C835568002650A6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A771EA581C835568002650A6 /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		A771EA5B1C83558D002650A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A771EA5A1C83558D002650A6 /* Security.framework */; };
 		A771EA5D1C835597002650A6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A771EA5C1C835597002650A6 /* ImageIO.framework */; };
 		A771FC141C5BB925001C20D0 /* kurayami.png in Resources */ = {isa = PBXBuildFile; fileRef = A771FC131C5BB925001C20D0 /* kurayami.png */; };
-		A771FC161C5BB95F001C20D0 /* blackScore count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771FC151C5BB95F001C20D0 /* blackScore count.swift */; };
-		A771FC181C5BB975001C20D0 /* blackTime count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771FC171C5BB975001C20D0 /* blackTime count.swift */; };
-		A771FC1A1C5BB990001C20D0 /* blackScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771FC191C5BB990001C20D0 /* blackScoreGame.swift */; };
-		A771FC1C1C5BB99E001C20D0 /* blackTimeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771FC1B1C5BB99E001C20D0 /* blackTimeGame.swift */; };
-		A771FC1E1C5BB9CC001C20D0 /* blackScoreGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771FC1D1C5BB9CC001C20D0 /* blackScoreGR.swift */; };
-		A771FC201C5BB9F6001C20D0 /* blackTimeGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771FC1F1C5BB9F6001C20D0 /* blackTimeGR.swift */; };
-		A771FC221C5BBA0B001C20D0 /* blackMissGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771FC211C5BBA0B001C20D0 /* blackMissGR.swift */; };
 		A786B94E1C59058400BAF30D /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A786B94D1C59058400BAF30D /* twitter.png */; };
-		A786B9501C590C6D00BAF30D /* mirror Miss GR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A786B94F1C590C6D00BAF30D /* mirror Miss GR.swift */; };
 		A78878711C843EF600A5EB46 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78878701C843EF600A5EB46 /* SystemConfiguration.framework */; };
 		A78A76251C98043100538080 /* ALAd.html in Resources */ = {isa = PBXBuildFile; fileRef = A78A75DB1C98043100538080 /* ALAd.html */; };
 		A78A76261C98043100538080 /* ALAdService.html in Resources */ = {isa = PBXBuildFile; fileRef = A78A75DC1C98043100538080 /* ALAdService.html */; };
@@ -127,16 +106,6 @@
 		A7C8F9A61C93211500B68EF0 /* MovieReward6004.h in Headers */ = {isa = PBXBuildFile; fileRef = A78DF67D1C8EBFCF00079BF9 /* MovieReward6004.h */; };
 		A7C8F9A71C93267A00B68EF0 /* MovieReward6004.m in Sources */ = {isa = PBXBuildFile; fileRef = A78DF67E1C8EBFCF00079BF9 /* MovieReward6004.m */; };
 		A7CAB5F11C4CF29A003A726B /* yajirusi.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CAB5F01C4CF29A003A726B /* yajirusi.png */; };
-		A7CF9DAD1C527BBC00C86894 /* mirrorScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF9DAC1C527BBC00C86894 /* mirrorScoreGame.swift */; };
-		A7CF9DAF1C527D4400C86894 /* mirrorScore count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF9DAE1C527D4400C86894 /* mirrorScore count.swift */; };
-		A7CF9DB11C527E4700C86894 /* mirrorTimeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF9DB01C527E4700C86894 /* mirrorTimeGame.swift */; };
-		A7CF9DB31C527E7E00C86894 /* mirrorScoreGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF9DB21C527E7E00C86894 /* mirrorScoreGR.swift */; };
-		A7CF9DB51C527EB300C86894 /* mirrorTimeGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF9DB41C527EB300C86894 /* mirrorTimeGR.swift */; };
-		A7CF9DB71C527ECE00C86894 /* mirrorTime count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF9DB61C527ECE00C86894 /* mirrorTime count.swift */; };
-		A7DAE5741BDBFCE900520320 /* black.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DAE5731BDBFCE900520320 /* black.swift */; };
-		A7DAE5761BDBFCFE00520320 /* anki.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DAE5751BDBFCFE00520320 /* anki.swift */; };
-		A7DAE5801BDC087600520320 /* Score Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DAE57F1BDC087600520320 /* Score Count.swift */; };
-		A7DAE5821BDC08C200520320 /* Score Gameover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DAE5811BDC08C200520320 /* Score Gameover.swift */; };
 		A7DF5E221C89B35200845C9B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A760EA201BEA107600361A28 /* AVFoundation.framework */; };
 		A7DF5E241C89B35B00845C9B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DF5E231C89B35B00845C9B /* CoreTelephony.framework */; };
 		A7DF5E261C89B36600845C9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DF5E251C89B36600845C9B /* CoreGraphics.framework */; };
@@ -146,7 +115,38 @@
 		A7DF5E2E1C89B39000845C9B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DF5E2D1C89B39000845C9B /* StoreKit.framework */; };
 		A7DF5E2F1C89B4C800845C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F4F511BD394B600E9D145 /* AppDelegate.swift */; };
 		A7DF5E301C89B4D600845C9B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F4F751BD3950A00E9D145 /* Title.swift */; };
-		A7E03E5D1BE28AA300512D61 /* ScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E03E5C1BE28AA300512D61 /* ScoreGame.swift */; };
+		A7FEC0731CBBA0BA009A9E9D /* Miss Gameover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC06B1CBBA0BA009A9E9D /* Miss Gameover.swift */; };
+		A7FEC0751CBBA0BA009A9E9D /* Score Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC06D1CBBA0BA009A9E9D /* Score Count.swift */; };
+		A7FEC0761CBBA0BA009A9E9D /* Score Gameover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC06E1CBBA0BA009A9E9D /* Score Gameover.swift */; };
+		A7FEC0771CBBA0BA009A9E9D /* ScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC06F1CBBA0BA009A9E9D /* ScoreGame.swift */; };
+		A7FEC0781CBBA0BA009A9E9D /* Time Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0701CBBA0BA009A9E9D /* Time Count.swift */; };
+		A7FEC0791CBBA0BA009A9E9D /* Time Gameover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0711CBBA0BA009A9E9D /* Time Gameover.swift */; };
+		A7FEC07A1CBBA0BA009A9E9D /* TimeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0721CBBA0BA009A9E9D /* TimeGame.swift */; };
+		A7FEC07C1CBBA0D2009A9E9D /* normal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC07B1CBBA0D2009A9E9D /* normal.swift */; };
+		A7FEC0851CBBA119009A9E9D /* mirror Miss GR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC07D1CBBA119009A9E9D /* mirror Miss GR.swift */; };
+		A7FEC0861CBBA119009A9E9D /* mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC07E1CBBA119009A9E9D /* mirror.swift */; };
+		A7FEC0871CBBA119009A9E9D /* mirrorScore count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC07F1CBBA119009A9E9D /* mirrorScore count.swift */; };
+		A7FEC0881CBBA119009A9E9D /* mirrorScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0801CBBA119009A9E9D /* mirrorScoreGame.swift */; };
+		A7FEC0891CBBA119009A9E9D /* mirrorScoreGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0811CBBA119009A9E9D /* mirrorScoreGR.swift */; };
+		A7FEC08A1CBBA119009A9E9D /* mirrorTime count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0821CBBA119009A9E9D /* mirrorTime count.swift */; };
+		A7FEC08B1CBBA119009A9E9D /* mirrorTimeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0831CBBA119009A9E9D /* mirrorTimeGame.swift */; };
+		A7FEC08C1CBBA119009A9E9D /* mirrorTimeGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0841CBBA119009A9E9D /* mirrorTimeGR.swift */; };
+		A7FEC0951CBBA156009A9E9D /* anki.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC08D1CBBA156009A9E9D /* anki.swift */; };
+		A7FEC0961CBBA156009A9E9D /* ankiMissGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC08E1CBBA156009A9E9D /* ankiMissGR.swift */; };
+		A7FEC0971CBBA156009A9E9D /* ankiScore count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC08F1CBBA156009A9E9D /* ankiScore count.swift */; };
+		A7FEC0981CBBA156009A9E9D /* ankiScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0901CBBA156009A9E9D /* ankiScoreGame.swift */; };
+		A7FEC0991CBBA156009A9E9D /* ankiScoreGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0911CBBA156009A9E9D /* ankiScoreGR.swift */; };
+		A7FEC09A1CBBA156009A9E9D /* ankiTime count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0921CBBA156009A9E9D /* ankiTime count.swift */; };
+		A7FEC09B1CBBA156009A9E9D /* ankiTimeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0931CBBA156009A9E9D /* ankiTimeGame.swift */; };
+		A7FEC09C1CBBA156009A9E9D /* ankiTimeGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0941CBBA156009A9E9D /* ankiTimeGR.swift */; };
+		A7FEC0A51CBBA183009A9E9D /* black.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC09D1CBBA183009A9E9D /* black.swift */; };
+		A7FEC0A61CBBA183009A9E9D /* blackMissGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC09E1CBBA183009A9E9D /* blackMissGR.swift */; };
+		A7FEC0A71CBBA183009A9E9D /* blackScore count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC09F1CBBA183009A9E9D /* blackScore count.swift */; };
+		A7FEC0A81CBBA183009A9E9D /* blackScoreGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0A01CBBA183009A9E9D /* blackScoreGame.swift */; };
+		A7FEC0A91CBBA183009A9E9D /* blackScoreGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0A11CBBA183009A9E9D /* blackScoreGR.swift */; };
+		A7FEC0AA1CBBA183009A9E9D /* blackTime count.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0A21CBBA183009A9E9D /* blackTime count.swift */; };
+		A7FEC0AB1CBBA183009A9E9D /* blackTimeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0A31CBBA183009A9E9D /* blackTimeGame.swift */; };
+		A7FEC0AC1CBBA183009A9E9D /* blackTimeGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEC0A41CBBA183009A9E9D /* blackTimeGR.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,16 +160,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A75586D61C5F463F009995E1 /* ankiScore count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ankiScore count.swift"; sourceTree = "<group>"; };
-		A75586D81C5F4650009995E1 /* ankiTime count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ankiTime count.swift"; sourceTree = "<group>"; };
-		A75586DA1C5F4668009995E1 /* ankiScoreGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ankiScoreGame.swift; sourceTree = "<group>"; };
-		A75586DC1C5F467A009995E1 /* ankiTimeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ankiTimeGame.swift; sourceTree = "<group>"; };
-		A75586DE1C5F46C3009995E1 /* ankiScoreGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ankiScoreGR.swift; sourceTree = "<group>"; };
-		A75586E01C5F46D8009995E1 /* ankiTimeGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ankiTimeGR.swift; sourceTree = "<group>"; };
-		A75586E21C5F46F0009995E1 /* ankiMissGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ankiMissGR.swift; sourceTree = "<group>"; };
 		A75586E61C5F9B88009995E1 /* ankiimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ankiimage.png; sourceTree = "<group>"; };
 		A75868811C445AFE0092D3B4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		A75868831C445CCE0092D3B4 /* TimeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeGame.swift; path = "けんけんぱっ！/TimeGame.swift"; sourceTree = "<group>"; };
 		A75F4F4C1BD394B600E9D145 /* けんけんぱっ！.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "けんけんぱっ！.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75F4F501BD394B600E9D145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A75F4F511BD394B600E9D145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -182,13 +174,8 @@
 		A75F4F711BD394D900E9D145 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		A75F4F731BD394E200E9D145 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A75F4F751BD3950A00E9D145 /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
-		A75F4F771BD3E32600E9D145 /* normal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = normal.swift; path = "けんけんぱっ！/normal.swift"; sourceTree = "<group>"; };
-		A75FA7BD1C46354B00051664 /* Time Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Time Count.swift"; path = "けんけんぱっ！/Time Count.swift"; sourceTree = "<group>"; };
-		A75FA7BF1C46398C00051664 /* Time Gameover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "Time Gameover.swift"; path = "けんけんぱっ！/Time Gameover.swift"; sourceTree = "<group>"; usesTabs = 0; };
 		A760EA1E1BEA101700361A28 /* ken-ken-pa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ken-ken-pa.mp3"; sourceTree = "<group>"; };
 		A760EA201BEA107600361A28 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		A76969541C46898E00548021 /* mirror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mirror.swift; sourceTree = "<group>"; };
-		A7697D2D1C492700001ABEB3 /* Miss Gameover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Miss Gameover.swift"; path = "けんけんぱっ！/Miss Gameover.swift"; sourceTree = "<group>"; };
 		A771EA481C8354AF002650A6 /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
 		A771EA491C8354AF002650A6 /* NADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADInterstitial.h; sourceTree = "<group>"; };
 		A771EA4A1C8354AF002650A6 /* NADNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADNative.h; sourceTree = "<group>"; };
@@ -206,15 +193,7 @@
 		A771EA5A1C83558D002650A6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A771EA5C1C835597002650A6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		A771FC131C5BB925001C20D0 /* kurayami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kurayami.png; sourceTree = "<group>"; };
-		A771FC151C5BB95F001C20D0 /* blackScore count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "blackScore count.swift"; sourceTree = "<group>"; };
-		A771FC171C5BB975001C20D0 /* blackTime count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "blackTime count.swift"; sourceTree = "<group>"; };
-		A771FC191C5BB990001C20D0 /* blackScoreGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = blackScoreGame.swift; sourceTree = "<group>"; };
-		A771FC1B1C5BB99E001C20D0 /* blackTimeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = blackTimeGame.swift; sourceTree = "<group>"; };
-		A771FC1D1C5BB9CC001C20D0 /* blackScoreGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = blackScoreGR.swift; sourceTree = "<group>"; };
-		A771FC1F1C5BB9F6001C20D0 /* blackTimeGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = blackTimeGR.swift; sourceTree = "<group>"; };
-		A771FC211C5BBA0B001C20D0 /* blackMissGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = blackMissGR.swift; sourceTree = "<group>"; };
 		A786B94D1C59058400BAF30D /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
-		A786B94F1C590C6D00BAF30D /* mirror Miss GR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "mirror Miss GR.swift"; sourceTree = "<group>"; };
 		A78878701C843EF600A5EB46 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A78A75DB1C98043100538080 /* ALAd.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ALAd.html; sourceTree = "<group>"; };
 		A78A75DC1C98043100538080 /* ALAdService.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ALAdService.html; sourceTree = "<group>"; };
@@ -301,23 +280,44 @@
 		A7C131E91C89C07500849BED /* ADFMovieReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADFMovieReward.framework; sourceTree = "<group>"; };
 		A7CAB5F01C4CF29A003A726B /* yajirusi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yajirusi.png; sourceTree = "<group>"; };
 		A7CF0DF91C9315A4005C1F7B /* ADFmyMovieReward-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ADFmyMovieReward-Bridging-Header.h"; path = "../ADFmyMovieReward-Bridging-Header.h"; sourceTree = "<group>"; };
-		A7CF9DAC1C527BBC00C86894 /* mirrorScoreGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mirrorScoreGame.swift; sourceTree = "<group>"; };
-		A7CF9DAE1C527D4400C86894 /* mirrorScore count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "mirrorScore count.swift"; sourceTree = "<group>"; };
-		A7CF9DB01C527E4700C86894 /* mirrorTimeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mirrorTimeGame.swift; sourceTree = "<group>"; usesTabs = 0; };
-		A7CF9DB21C527E7E00C86894 /* mirrorScoreGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mirrorScoreGR.swift; sourceTree = "<group>"; };
-		A7CF9DB41C527EB300C86894 /* mirrorTimeGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mirrorTimeGR.swift; sourceTree = "<group>"; };
-		A7CF9DB61C527ECE00C86894 /* mirrorTime count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "mirrorTime count.swift"; sourceTree = "<group>"; };
-		A7DAE5731BDBFCE900520320 /* black.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = black.swift; sourceTree = "<group>"; usesTabs = 0; };
-		A7DAE5751BDBFCFE00520320 /* anki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anki.swift; sourceTree = "<group>"; };
-		A7DAE57F1BDC087600520320 /* Score Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Score Count.swift"; path = "けんけんぱっ！/Score Count.swift"; sourceTree = "<group>"; };
-		A7DAE5811BDC08C200520320 /* Score Gameover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Score Gameover.swift"; path = "けんけんぱっ！/Score Gameover.swift"; sourceTree = "<group>"; };
 		A7DF5E231C89B35B00845C9B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		A7DF5E251C89B36600845C9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A7DF5E271C89B36D00845C9B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A7DF5E291C89B37700845C9B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		A7DF5E2B1C89B38800845C9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7DF5E2D1C89B39000845C9B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		A7E03E5C1BE28AA300512D61 /* ScoreGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreGame.swift; path = "けんけんぱっ！/ScoreGame.swift"; sourceTree = "<group>"; };
+		A7FEC06B1CBBA0BA009A9E9D /* Miss Gameover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Miss Gameover.swift"; path = "けんけんぱっ！/Normal Mode/Miss Gameover.swift"; sourceTree = "<group>"; };
+		A7FEC06D1CBBA0BA009A9E9D /* Score Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Score Count.swift"; path = "けんけんぱっ！/Normal Mode/Score Count.swift"; sourceTree = "<group>"; };
+		A7FEC06E1CBBA0BA009A9E9D /* Score Gameover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Score Gameover.swift"; path = "けんけんぱっ！/Normal Mode/Score Gameover.swift"; sourceTree = "<group>"; };
+		A7FEC06F1CBBA0BA009A9E9D /* ScoreGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreGame.swift; path = "けんけんぱっ！/Normal Mode/ScoreGame.swift"; sourceTree = "<group>"; };
+		A7FEC0701CBBA0BA009A9E9D /* Time Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Time Count.swift"; path = "けんけんぱっ！/Normal Mode/Time Count.swift"; sourceTree = "<group>"; };
+		A7FEC0711CBBA0BA009A9E9D /* Time Gameover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Time Gameover.swift"; path = "けんけんぱっ！/Normal Mode/Time Gameover.swift"; sourceTree = "<group>"; };
+		A7FEC0721CBBA0BA009A9E9D /* TimeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeGame.swift; path = "けんけんぱっ！/Normal Mode/TimeGame.swift"; sourceTree = "<group>"; };
+		A7FEC07B1CBBA0D2009A9E9D /* normal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = normal.swift; path = "けんけんぱっ！/Normal Mode/normal.swift"; sourceTree = "<group>"; };
+		A7FEC07D1CBBA119009A9E9D /* mirror Miss GR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "mirror Miss GR.swift"; path = "mirror Mode/mirror Miss GR.swift"; sourceTree = "<group>"; };
+		A7FEC07E1CBBA119009A9E9D /* mirror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mirror.swift; path = "mirror Mode/mirror.swift"; sourceTree = "<group>"; };
+		A7FEC07F1CBBA119009A9E9D /* mirrorScore count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "mirrorScore count.swift"; path = "mirror Mode/mirrorScore count.swift"; sourceTree = "<group>"; };
+		A7FEC0801CBBA119009A9E9D /* mirrorScoreGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mirrorScoreGame.swift; path = "mirror Mode/mirrorScoreGame.swift"; sourceTree = "<group>"; };
+		A7FEC0811CBBA119009A9E9D /* mirrorScoreGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mirrorScoreGR.swift; path = "mirror Mode/mirrorScoreGR.swift"; sourceTree = "<group>"; };
+		A7FEC0821CBBA119009A9E9D /* mirrorTime count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "mirrorTime count.swift"; path = "mirror Mode/mirrorTime count.swift"; sourceTree = "<group>"; };
+		A7FEC0831CBBA119009A9E9D /* mirrorTimeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mirrorTimeGame.swift; path = "mirror Mode/mirrorTimeGame.swift"; sourceTree = "<group>"; };
+		A7FEC0841CBBA119009A9E9D /* mirrorTimeGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mirrorTimeGR.swift; path = "mirror Mode/mirrorTimeGR.swift"; sourceTree = "<group>"; };
+		A7FEC08D1CBBA156009A9E9D /* anki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = anki.swift; path = "anki Mode/anki.swift"; sourceTree = "<group>"; };
+		A7FEC08E1CBBA156009A9E9D /* ankiMissGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ankiMissGR.swift; path = "anki Mode/ankiMissGR.swift"; sourceTree = "<group>"; };
+		A7FEC08F1CBBA156009A9E9D /* ankiScore count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ankiScore count.swift"; path = "anki Mode/ankiScore count.swift"; sourceTree = "<group>"; };
+		A7FEC0901CBBA156009A9E9D /* ankiScoreGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ankiScoreGame.swift; path = "anki Mode/ankiScoreGame.swift"; sourceTree = "<group>"; };
+		A7FEC0911CBBA156009A9E9D /* ankiScoreGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ankiScoreGR.swift; path = "anki Mode/ankiScoreGR.swift"; sourceTree = "<group>"; };
+		A7FEC0921CBBA156009A9E9D /* ankiTime count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ankiTime count.swift"; path = "anki Mode/ankiTime count.swift"; sourceTree = "<group>"; };
+		A7FEC0931CBBA156009A9E9D /* ankiTimeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ankiTimeGame.swift; path = "anki Mode/ankiTimeGame.swift"; sourceTree = "<group>"; };
+		A7FEC0941CBBA156009A9E9D /* ankiTimeGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ankiTimeGR.swift; path = "anki Mode/ankiTimeGR.swift"; sourceTree = "<group>"; };
+		A7FEC09D1CBBA183009A9E9D /* black.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = black.swift; path = "balck Mode/black.swift"; sourceTree = "<group>"; };
+		A7FEC09E1CBBA183009A9E9D /* blackMissGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = blackMissGR.swift; path = "balck Mode/blackMissGR.swift"; sourceTree = "<group>"; };
+		A7FEC09F1CBBA183009A9E9D /* blackScore count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "blackScore count.swift"; path = "balck Mode/blackScore count.swift"; sourceTree = "<group>"; };
+		A7FEC0A01CBBA183009A9E9D /* blackScoreGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = blackScoreGame.swift; path = "balck Mode/blackScoreGame.swift"; sourceTree = "<group>"; };
+		A7FEC0A11CBBA183009A9E9D /* blackScoreGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = blackScoreGR.swift; path = "balck Mode/blackScoreGR.swift"; sourceTree = "<group>"; };
+		A7FEC0A21CBBA183009A9E9D /* blackTime count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "blackTime count.swift"; path = "balck Mode/blackTime count.swift"; sourceTree = "<group>"; };
+		A7FEC0A31CBBA183009A9E9D /* blackTimeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = blackTimeGame.swift; path = "balck Mode/blackTimeGame.swift"; sourceTree = "<group>"; };
+		A7FEC0A41CBBA183009A9E9D /* blackTimeGR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = blackTimeGR.swift; path = "balck Mode/blackTimeGR.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -473,14 +473,14 @@
 		A776AB491CBB9522007D8795 /* normal Mode */ = {
 			isa = PBXGroup;
 			children = (
-				A75F4F771BD3E32600E9D145 /* normal.swift */,
-				A7DAE57F1BDC087600520320 /* Score Count.swift */,
-				A75FA7BD1C46354B00051664 /* Time Count.swift */,
-				A7E03E5C1BE28AA300512D61 /* ScoreGame.swift */,
-				A75868831C445CCE0092D3B4 /* TimeGame.swift */,
-				A7DAE5811BDC08C200520320 /* Score Gameover.swift */,
-				A75FA7BF1C46398C00051664 /* Time Gameover.swift */,
-				A7697D2D1C492700001ABEB3 /* Miss Gameover.swift */,
+				A7FEC07B1CBBA0D2009A9E9D /* normal.swift */,
+				A7FEC06D1CBBA0BA009A9E9D /* Score Count.swift */,
+				A7FEC06F1CBBA0BA009A9E9D /* ScoreGame.swift */,
+				A7FEC06E1CBBA0BA009A9E9D /* Score Gameover.swift */,
+				A7FEC0701CBBA0BA009A9E9D /* Time Count.swift */,
+				A7FEC0721CBBA0BA009A9E9D /* TimeGame.swift */,
+				A7FEC0711CBBA0BA009A9E9D /* Time Gameover.swift */,
+				A7FEC06B1CBBA0BA009A9E9D /* Miss Gameover.swift */,
 			);
 			name = "normal Mode";
 			path = ..;
@@ -489,14 +489,14 @@
 		A776AB4B1CBB95DF007D8795 /* mirror Mode */ = {
 			isa = PBXGroup;
 			children = (
-				A76969541C46898E00548021 /* mirror.swift */,
-				A7CF9DAE1C527D4400C86894 /* mirrorScore count.swift */,
-				A7CF9DB61C527ECE00C86894 /* mirrorTime count.swift */,
-				A7CF9DAC1C527BBC00C86894 /* mirrorScoreGame.swift */,
-				A7CF9DB01C527E4700C86894 /* mirrorTimeGame.swift */,
-				A7CF9DB21C527E7E00C86894 /* mirrorScoreGR.swift */,
-				A7CF9DB41C527EB300C86894 /* mirrorTimeGR.swift */,
-				A786B94F1C590C6D00BAF30D /* mirror Miss GR.swift */,
+				A7FEC07E1CBBA119009A9E9D /* mirror.swift */,
+				A7FEC07F1CBBA119009A9E9D /* mirrorScore count.swift */,
+				A7FEC0801CBBA119009A9E9D /* mirrorScoreGame.swift */,
+				A7FEC0811CBBA119009A9E9D /* mirrorScoreGR.swift */,
+				A7FEC0821CBBA119009A9E9D /* mirrorTime count.swift */,
+				A7FEC0831CBBA119009A9E9D /* mirrorTimeGame.swift */,
+				A7FEC0841CBBA119009A9E9D /* mirrorTimeGR.swift */,
+				A7FEC07D1CBBA119009A9E9D /* mirror Miss GR.swift */,
 			);
 			name = "mirror Mode";
 			sourceTree = "<group>";
@@ -504,14 +504,14 @@
 		A776AB4C1CBB95FD007D8795 /* anki Mode */ = {
 			isa = PBXGroup;
 			children = (
-				A7DAE5751BDBFCFE00520320 /* anki.swift */,
-				A75586D61C5F463F009995E1 /* ankiScore count.swift */,
-				A75586D81C5F4650009995E1 /* ankiTime count.swift */,
-				A75586DA1C5F4668009995E1 /* ankiScoreGame.swift */,
-				A75586DC1C5F467A009995E1 /* ankiTimeGame.swift */,
-				A75586DE1C5F46C3009995E1 /* ankiScoreGR.swift */,
-				A75586E01C5F46D8009995E1 /* ankiTimeGR.swift */,
-				A75586E21C5F46F0009995E1 /* ankiMissGR.swift */,
+				A7FEC08D1CBBA156009A9E9D /* anki.swift */,
+				A7FEC08F1CBBA156009A9E9D /* ankiScore count.swift */,
+				A7FEC0901CBBA156009A9E9D /* ankiScoreGame.swift */,
+				A7FEC0911CBBA156009A9E9D /* ankiScoreGR.swift */,
+				A7FEC0921CBBA156009A9E9D /* ankiTime count.swift */,
+				A7FEC0931CBBA156009A9E9D /* ankiTimeGame.swift */,
+				A7FEC0941CBBA156009A9E9D /* ankiTimeGR.swift */,
+				A7FEC08E1CBBA156009A9E9D /* ankiMissGR.swift */,
 			);
 			name = "anki Mode";
 			sourceTree = "<group>";
@@ -519,14 +519,14 @@
 		A776AB4D1CBB960E007D8795 /* black Mode */ = {
 			isa = PBXGroup;
 			children = (
-				A7DAE5731BDBFCE900520320 /* black.swift */,
-				A771FC151C5BB95F001C20D0 /* blackScore count.swift */,
-				A771FC171C5BB975001C20D0 /* blackTime count.swift */,
-				A771FC191C5BB990001C20D0 /* blackScoreGame.swift */,
-				A771FC1B1C5BB99E001C20D0 /* blackTimeGame.swift */,
-				A771FC1D1C5BB9CC001C20D0 /* blackScoreGR.swift */,
-				A771FC1F1C5BB9F6001C20D0 /* blackTimeGR.swift */,
-				A771FC211C5BBA0B001C20D0 /* blackMissGR.swift */,
+				A7FEC09D1CBBA183009A9E9D /* black.swift */,
+				A7FEC09F1CBBA183009A9E9D /* blackScore count.swift */,
+				A7FEC0A01CBBA183009A9E9D /* blackScoreGame.swift */,
+				A7FEC0A11CBBA183009A9E9D /* blackScoreGR.swift */,
+				A7FEC0A21CBBA183009A9E9D /* blackTime count.swift */,
+				A7FEC0A31CBBA183009A9E9D /* blackTimeGame.swift */,
+				A7FEC0A41CBBA183009A9E9D /* blackTimeGR.swift */,
+				A7FEC09E1CBBA183009A9E9D /* blackMissGR.swift */,
 			);
 			name = "black Mode";
 			sourceTree = "<group>";
@@ -875,43 +875,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7FEC0A81CBBA183009A9E9D /* blackScoreGame.swift in Sources */,
+				A7FEC0861CBBA119009A9E9D /* mirror.swift in Sources */,
 				A7C8F9A71C93267A00B68EF0 /* MovieReward6004.m in Sources */,
-				A75868841C445CCE0092D3B4 /* TimeGame.swift in Sources */,
-				A771FC181C5BB975001C20D0 /* blackTime count.swift in Sources */,
-				A771FC1A1C5BB990001C20D0 /* blackScoreGame.swift in Sources */,
-				A75F4F781BD3E32600E9D145 /* normal.swift in Sources */,
-				A75586DF1C5F46C3009995E1 /* ankiScoreGR.swift in Sources */,
-				A75586DB1C5F4668009995E1 /* ankiScoreGame.swift in Sources */,
-				A786B9501C590C6D00BAF30D /* mirror Miss GR.swift in Sources */,
-				A75586D71C5F463F009995E1 /* ankiScore count.swift in Sources */,
-				A771FC1C1C5BB99E001C20D0 /* blackTimeGame.swift in Sources */,
-				A771FC161C5BB95F001C20D0 /* blackScore count.swift in Sources */,
-				A771FC201C5BB9F6001C20D0 /* blackTimeGR.swift in Sources */,
+				A7FEC0761CBBA0BA009A9E9D /* Score Gameover.swift in Sources */,
+				A7FEC0AB1CBBA183009A9E9D /* blackTimeGame.swift in Sources */,
+				A7FEC08C1CBBA119009A9E9D /* mirrorTimeGR.swift in Sources */,
+				A7FEC0AA1CBBA183009A9E9D /* blackTime count.swift in Sources */,
+				A7FEC09C1CBBA156009A9E9D /* ankiTimeGR.swift in Sources */,
+				A7FEC08A1CBBA119009A9E9D /* mirrorTime count.swift in Sources */,
+				A7FEC0A61CBBA183009A9E9D /* blackMissGR.swift in Sources */,
+				A7FEC07C1CBBA0D2009A9E9D /* normal.swift in Sources */,
+				A7FEC08B1CBBA119009A9E9D /* mirrorTimeGame.swift in Sources */,
+				A7FEC0731CBBA0BA009A9E9D /* Miss Gameover.swift in Sources */,
 				A7DF5E2F1C89B4C800845C9B /* AppDelegate.swift in Sources */,
-				A7CF9DAF1C527D4400C86894 /* mirrorScore count.swift in Sources */,
-				A75586D91C5F4650009995E1 /* ankiTime count.swift in Sources */,
 				A75F4F541BD394B600E9D145 /* ViewController.swift in Sources */,
-				A7DAE5821BDC08C200520320 /* Score Gameover.swift in Sources */,
-				A75FA7BE1C46354B00051664 /* Time Count.swift in Sources */,
-				A7DAE5761BDBFCFE00520320 /* anki.swift in Sources */,
-				A771FC1E1C5BB9CC001C20D0 /* blackScoreGR.swift in Sources */,
-				A7CF9DB71C527ECE00C86894 /* mirrorTime count.swift in Sources */,
-				A7CF9DB51C527EB300C86894 /* mirrorTimeGR.swift in Sources */,
-				A76969551C46898E00548021 /* mirror.swift in Sources */,
+				A7FEC09A1CBBA156009A9E9D /* ankiTime count.swift in Sources */,
+				A7FEC0791CBBA0BA009A9E9D /* Time Gameover.swift in Sources */,
+				A7FEC0991CBBA156009A9E9D /* ankiScoreGR.swift in Sources */,
+				A7FEC0871CBBA119009A9E9D /* mirrorScore count.swift in Sources */,
+				A7FEC0771CBBA0BA009A9E9D /* ScoreGame.swift in Sources */,
+				A7FEC0751CBBA0BA009A9E9D /* Score Count.swift in Sources */,
+				A7FEC0961CBBA156009A9E9D /* ankiMissGR.swift in Sources */,
+				A7FEC0A71CBBA183009A9E9D /* blackScore count.swift in Sources */,
+				A7FEC0881CBBA119009A9E9D /* mirrorScoreGame.swift in Sources */,
+				A7FEC0AC1CBBA183009A9E9D /* blackTimeGR.swift in Sources */,
+				A7FEC0781CBBA0BA009A9E9D /* Time Count.swift in Sources */,
+				A7FEC0A91CBBA183009A9E9D /* blackScoreGR.swift in Sources */,
+				A7FEC0891CBBA119009A9E9D /* mirrorScoreGR.swift in Sources */,
+				A7FEC0971CBBA156009A9E9D /* ankiScore count.swift in Sources */,
 				A78A76681C98043100538080 /* MovieReward6000.m in Sources */,
-				A7CF9DAD1C527BBC00C86894 /* mirrorScoreGame.swift in Sources */,
-				A7697D2E1C492700001ABEB3 /* Miss Gameover.swift in Sources */,
-				A7DAE5741BDBFCE900520320 /* black.swift in Sources */,
-				A7CF9DB31C527E7E00C86894 /* mirrorScoreGR.swift in Sources */,
-				A75586DD1C5F467A009995E1 /* ankiTimeGame.swift in Sources */,
+				A7FEC07A1CBBA0BA009A9E9D /* TimeGame.swift in Sources */,
+				A7FEC0951CBBA156009A9E9D /* anki.swift in Sources */,
 				A7DF5E301C89B4D600845C9B /* Title.swift in Sources */,
-				A771FC221C5BBA0B001C20D0 /* blackMissGR.swift in Sources */,
-				A75586E11C5F46D8009995E1 /* ankiTimeGR.swift in Sources */,
-				A7CF9DB11C527E4700C86894 /* mirrorTimeGame.swift in Sources */,
-				A75FA7C01C46398C00051664 /* Time Gameover.swift in Sources */,
-				A7DAE5801BDC087600520320 /* Score Count.swift in Sources */,
-				A75586E31C5F46F0009995E1 /* ankiMissGR.swift in Sources */,
-				A7E03E5D1BE28AA300512D61 /* ScoreGame.swift in Sources */,
+				A7FEC09B1CBBA156009A9E9D /* ankiTimeGame.swift in Sources */,
+				A7FEC0851CBBA119009A9E9D /* mirror Miss GR.swift in Sources */,
+				A7FEC0981CBBA156009A9E9D /* ankiScoreGame.swift in Sources */,
+				A7FEC0A51CBBA183009A9E9D /* black.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
